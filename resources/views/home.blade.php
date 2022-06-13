@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
-    
+    <h1>BoolMovieDbQuery</h1>
     <div class="container">
         <div class="row">
             @foreach ($movies as $movie)

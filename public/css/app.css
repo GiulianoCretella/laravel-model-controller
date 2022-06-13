@@ -20504,11 +20504,30 @@ readers do not read off random characters that represent icons */
   content: "\F63F";
 }
 
+body {
+  background-color: #272822;
+}
+
+h1, .h1 {
+  color: white;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 2%;
+  text-shadow: 2px 3px #1b3456;
+}
+
+.container .row .col-6 .card {
+  background-color: #193152;
+  border: 3px solid #0a1422;
+  padding: 1%;
+}
 .container .row .col-6 .card h4 a, .container .row .col-6 .card .h4 a {
   text-decoration: none;
-  color: #193152;
+  color: white;
   font-weight: bolder;
 }
 .container .row .col-6 .card p {
   text-transform: capitalize;
+  color: white;
 }
